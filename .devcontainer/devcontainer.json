@@ -24,7 +24,7 @@
 			],
 			"settings": {
 				"editor.fontSize": 17,
-				"terminal.integrated.fontSize": 11,
+				"terminal.integrated.fontSize": 15,
 				"editor.wordWrap": "on"
 			}
 			
