@@ -1,4 +1,4 @@
-
+// terminal => node 01_basics/01_variables.js
 
 const accountId = 144553366; //"const" variable once declared cant be changed.
 
