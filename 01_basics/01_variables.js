@@ -26,7 +26,7 @@ Prefer Not To Use "var" variables.Because of Block scope and Functional Scope pr
 So, only use "let" & "const" variables.
 */
 
-// "console.table" ==> to display all variables in table form.
+// "console.table" ==> to display all variables in table form with index and values.
 console.table([accountId, accountEmail, accountPassword, accountCity, accountState, accountBalance]);
 
 // to show output simply type "log" and click enter 
