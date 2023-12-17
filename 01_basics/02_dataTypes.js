@@ -43,12 +43,12 @@ console.log("Digvijay");
 
 4. Boolean       => true/false (Booleans are often used in conditional testing.)
 
-5. Undefined     => In JavaScript, a variable without a value, has the value 
-                    undefined. The type is also undefined.
+5. Undefined     => (value is not assigned.)In JavaScript, a variable without a value, 
+                    has the value undefined. The type is also undefined.
                     Any variable can be emptied, by setting the value to undefined. 
                     The type will also be undefined.
 
-6. Null          => Standalone value (we can assign null to any variable)
+6. Null          => Standalone value or empty (we can assign null to any variable).
 
 7. Symbol        => 
 
@@ -135,9 +135,13 @@ console.log(typeof "") ;            // Returns "string".
 console.log(typeof [20, 21, 32]);   // Returns "object".
 console.log(typeof true);           // Returns "boolean".
 console.log(typeof 25.33);          // Returns "number".
-console.log(typeof 55 + 58);        // Returns "number".
+console.log(typeof 58);        // Returns type => number" with .
 
+let age = 31;
+console.log(typeof age);            // returns type of variable name "age" => "number"
 
+console.log(typeof null);           // Returns "object"
+console.log(typeof undefined);      // Returns "undefined"
 
 
 /* 
