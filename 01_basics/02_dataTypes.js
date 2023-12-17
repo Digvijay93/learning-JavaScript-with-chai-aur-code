@@ -135,7 +135,7 @@ console.log(typeof "") ;            // Returns "string".
 console.log(typeof [20, 21, 32]);   // Returns "object".
 console.log(typeof true);           // Returns "boolean".
 console.log(typeof 25.33);          // Returns "number".
-console.log(typeof 58);        // Returns type => number" with .
+console.log(typeof 58);        // Returns type => number".
 
 let age = 31;
 console.log(typeof age);            // returns type of variable name "age" => "number"
